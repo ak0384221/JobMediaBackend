@@ -1,18 +1,9 @@
 {
-  "name": "Qtec asssment",
+  "name": "Qtec-asssment",
   "version": "1.0.0",
   "description": "Job Portal API",
   "type": "module",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.30.3",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
