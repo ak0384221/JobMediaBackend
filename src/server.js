@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
-import app from "./app.ts";
-import { connectDB } from "./config/connectDB.ts";
+import app from "./app.js";
+import { connectDB } from "./config/connectDB.js";
 
 //fail first method
 const required = ["PORT", "MONGO_URI"];

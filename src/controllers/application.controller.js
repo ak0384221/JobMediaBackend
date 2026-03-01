@@ -1,6 +1,6 @@
-import { asyncHandler } from "../utils/asyncHandler.ts";
-import { Application } from "../models/Application.model.ts";
-import { Job } from "../models/Job.model.ts";
+import { asyncHandler } from "../utils/asyncHandler.js";
+import { Application } from "../models/Application.model.js";
+import { Job } from "../models/Job.model.js";
 import mongoose from "mongoose";
 
 //  Submit job application

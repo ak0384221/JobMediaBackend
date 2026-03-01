@@ -1,8 +1,8 @@
 import e from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { jobRouter } from "./routes/jobsRoute.route.ts";
-import { submitApplication } from "./controllers/application.controller.ts";
+import { jobRouter } from "./routes/jobsRoute.route.js";
+import { submitApplication } from "./controllers/application.controller.js";
 //imports
 const app = e();
 dotenv.config({ path: "./.env" });

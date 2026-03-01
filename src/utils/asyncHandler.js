@@ -1,7 +1,5 @@
-import type { NextFunction } from "express";
-
-function asyncHandler(fn: any) {
-  return async function (req: Request, res: Response, next: NextFunction) {
+function asyncHandler(fn) {
+  return async function (req, res, next) {
     try {
       await fn(req, res, next);
     } catch (error) {

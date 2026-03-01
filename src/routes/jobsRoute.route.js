@@ -4,7 +4,7 @@ import {
   deleteJob,
   getAllJobs,
   getSingleJob,
-} from "../controllers/job.controller.ts";
+} from "../controllers/job.controller.js";
 
 const jobRouter = Router();
 jobRouter.route("/").post(createJob);

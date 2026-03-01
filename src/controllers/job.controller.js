@@ -1,6 +1,6 @@
-import { Job } from "../models/Job.model.ts";
+import { Job } from "../models/Job.model.js";
 import mongoose from "mongoose";
-import { asyncHandler } from "../utils/asyncHandler.ts";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
 //  List all jobs
 
