@@ -55,7 +55,7 @@ src/
 
    ```bash
    git clone <repository-url>
-   cd Qtec-assessment
+   cd JobMediaBackend
    ```
 
 2. **Install dependencies**
@@ -103,15 +103,13 @@ The application requires the following environment variables:
 Uses `ts-node` for hot-reloading during development:
 
 ```bash
-pnpm dev
+pnpm run dev
 ```
 
-### Production Mode
 
-Build and run the compiled JavaScript:
 
 ```bash
-pnpm start
+pnpm run start
 ```
 
 ## API Endpoints
